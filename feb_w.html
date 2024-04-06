@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="style.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Maintenance</title>
+  </head>
+
+  <body id="title">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+          <a class="navbar-brand" href="#">MALTEX MALSTERS LTD</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" id="topri">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          </div>
+          </div>
+        </nav>
+
+        <button type="button" class="btn btn-outline-secondary" style="background-color: white" onclick="location.href='water.html'">Back</button>
+                  
+        <div class="container">
+              <div class="row justify-content-md-center">
+               <div class="col col-lg-2"> </div>
+               <div class="col-md-auto"> </div>
+               <div class="col col-lg-2"> </div>
+              </div>
+              <div class="row justify-content-md-center">
+               <div class="col col-lg-2"> </div>
+               <div class="col-md-auto"> </div>
+               <div class="col col-lg-2"> </div>
+              </div>
+
+
+              <div class="row row-cols-2" style="background-color: #1F9622">
+
+                <h2 class="col">Feburary Water Report</h2>
+                <h2 class="col"></h2>
+                
+              </div>
+
+            <!---Table --->  
+            <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Tubewell_1 (kL)</th>
+                <th scope="col">Tubewell_2 (kL)</th>
+                <th scope="col">Process1_Meter (kL)</th>
+                <th scope="col">Process3_Meter (kL)</th>
+                <th scope="col">Domestic (kL)</th>
+                                 
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>60</td>
+                <td>306</td>
+                <td>39</td>
+                <td>239</td>
+                <td>35</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>132</td>
+                <td>281</td>
+                <td>118</td>
+                <td>214</td>
+                <td>35</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>101</td>
+                <td>288</td>
+                <td>88</td>
+                <td>239</td>
+                <td>30</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>138</td>
+                <td>240</td>
+                <td>63</td>
+                <td>166</td>
+                <td>31</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>144</td>
+                <td>255</td>
+                <td>163</td>
+                <td>282</td>
+                <td>33</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>135</td>
+                <td>267</td>
+                <td>91</td>
+                <td>180</td>
+                <td>30</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>111</td>
+                <td>313</td>
+                <td>140</td>
+                <td>320</td>
+                <td>31</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>94</td>
+                <td>235</td>
+                <td>42</td>
+                <td>170</td>
+                <td>36</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>120</td>
+                <td>321</td>
+                <td>156</td>
+                <td>277</td>
+                <td>32</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>72</td>
+                <td>314</td>
+                <td>31</td>
+                <td>287</td>
+                <td>28</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">11</th>
+                <td>86</td>
+                <td>320</td>
+                <td>82</td>
+                <td>252</td>
+                <td>20</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">12</th>
+                <td>135</td>
+                <td>277</td>
+                <td>161</td>
+                <td>235</td>
+                <td>19</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">13</th>
+                <td>72</td>
+                <td>294</td>
+                <td>81</td>
+                <td>241</td>
+                <td>19</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">14</th>
+                <td>141</td>
+                <td>283</td>
+                <td>147</td>
+                <td>271</td>
+                <td>20</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">15</th>
+                <td>25</td>
+                <td>333</td>
+                <td>87</td>
+                <td>274</td>
+                <td>21</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">16</th>
+                <td>58</td>
+                <td>323</td>
+                <td>105</td>
+                <td>203</td>
+                <td>21</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">17</th>
+                <td>88</td>
+                <td>248</td>
+                <td>253</td>
+                <td>47</td>
+                <td>18</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">18</th>
+                <td>66</td>
+                <td>308</td>
+                <td>85</td>
+                <td>269</td>
+                <td>25</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">19</th>
+                <td>159</td>
+                <td>338</td>
+                <td>161</td>
+                <td>325</td>
+                <td>22</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">20</th>
+                <td>87</td>
+                <td>245</td>
+                <td>89</td>
+                <td>209</td>
+                <td>31</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">21</th>
+                <td>90</td>
+                <td>340</td>
+                <td>136</td>
+                <td>310</td>
+                <td>21</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">22</th>
+                <td>114</td>
+                <td>306</td>
+                <td>74</td>
+                <td>237</td>
+                <td>20</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">23</th>
+                <td>111</td>
+                <td>267</td>
+                <td>134</td>
+                <td>242</td>
+                <td>18</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">24</th>
+                <td>69</td>
+                <td>318</td>
+                <td>56</td>
+                <td>295</td>
+                <td>31</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">25</th>
+                <td>119</td>
+                <td>304</td>
+                <td>138</td>
+                <td>237</td>
+                <td>22</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">26</th>
+                <td>107</td>
+                <td>314</td>
+                <td>98</td>
+                <td>250</td>
+                <td>19</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">27</th>
+                <td>125</td>
+                <td>220</td>
+                <td>73</td>
+                <td>177</td>
+                <td>23</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">28</th>
+                <td>160</td>
+                <td>276</td>
+                <td>140</td>
+                <td>213</td>
+                <td>20</td>
+                
+              </tr>
+
+          </tbody>
+        </table>      
+
+              <div class="row row-cols-2" style="background-color: #14CADF">
+              
+                <button type="button"></button>
+                <button type="button"></button>
+              </div>  
+             
+
+            <table class="table table-dark">
+            </tbody> 
+              <tr>
+                <th scope="row">TOTAL</th>
+                <td>T1 & T2= 11053</td>
+                <td></td>
+                <td>P1, P3 & D= 10403</td>
+                <td></td>
+                <td></td>
+                
+              </tr>
+            </tbody>
+        </table>
+        
+        <script>
+        window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+  animationEnabled: true,
+  theme: "light2",
+  title:{
+    text: "Tubewell and Process Water Consumption"
+  },
+  axisX:{
+    valueFormatString: "DD MMM",
+    crosshair: {
+      enabled: true,
+      snapToDataPoint: true
+    }
+  },
+  axisY: {
+    title: "Quantity of Water(kL)",
+    includeZero: true,
+    crosshair: {
+      enabled: true
+    }
+  },
+  toolTip:{
+    shared:true
+  },  
+  legend:{
+    cursor:"pointer",
+    verticalAlign: "bottom",
+    horizontalAlign: "left",
+    dockInsidePlotArea: true,
+    itemclick: toogleDataSeries
+  },
+  data: [{
+    type: "line",
+    showInLegend: true,
+    name: "Tubewell (1&2)",
+    markerType: "square",
+    xValueFormatString: "DD MMM, YYYY",
+    color: "#F08080",
+    dataPoints: [
+      { x: new Date(2022, 1, 1), y: 366 },
+      { x: new Date(2022, 1, 2), y: 413 },
+      { x: new Date(2022, 1, 3), y: 389 },
+      { x: new Date(2022, 1, 4), y: 378 },
+      { x: new Date(2022, 1, 5), y: 399 },
+      { x: new Date(2022, 1, 6), y: 402 },
+      { x: new Date(2022, 1, 7), y: 424 },
+      { x: new Date(2022, 1, 8), y: 329 },
+      { x: new Date(2022, 1, 9), y: 441 },
+      { x: new Date(2022, 1, 10), y: 386 },
+      { x: new Date(2022, 1, 11), y: 406 },
+      { x: new Date(2022, 1, 12), y: 412 },
+      { x: new Date(2022, 1, 13), y: 366 },
+      { x: new Date(2022, 1, 14), y: 424 },
+      { x: new Date(2022, 1, 15), y: 358 },
+      { x: new Date(2022, 1, 16), y: 381 },
+      { x: new Date(2022, 1, 17), y: 336 },
+      { x: new Date(2022, 1, 18), y: 374 },
+      { x: new Date(2022, 1, 19), y: 497 },
+      { x: new Date(2022, 1, 20), y: 332 },
+      { x: new Date(2022, 1, 21), y: 430 },
+      { x: new Date(2022, 1, 22), y: 420 },
+      { x: new Date(2022, 1, 23), y: 378 },
+      { x: new Date(2022, 1, 24), y: 387 },
+      { x: new Date(2022, 1, 25), y: 423 },
+      { x: new Date(2022, 1, 26), y: 421 },
+      { x: new Date(2022, 1, 27), y: 345 },
+      { x: new Date(2022, 1, 28), y: 436 }
+    ]
+  },
+  {
+    type: "line",
+    showInLegend: true,
+    name: "Process Water(P1,P2 & D)",
+    lineDashType: "dash",
+    dataPoints: [
+      { x: new Date(2022, 1, 1), y: 313 },
+      { x: new Date(2022, 1, 2), y: 367 },
+      { x: new Date(2022, 1, 3), y: 357 },
+      { x: new Date(2022, 1, 4), y: 260 },
+      { x: new Date(2022, 1, 5), y: 478 },
+      { x: new Date(2022, 1, 6), y: 301 },
+      { x: new Date(2022, 1, 7), y: 491 },
+      { x: new Date(2022, 1, 8), y: 248 },
+      { x: new Date(2022, 1, 9), y: 465 },
+      { x: new Date(2022, 1, 10), y: 346 },
+      { x: new Date(2022, 1, 11), y: 354 },
+      { x: new Date(2022, 1, 12), y: 415 },
+      { x: new Date(2022, 1, 13), y: 341 },
+      { x: new Date(2022, 1, 14), y: 438 },
+      { x: new Date(2022, 1, 15), y: 382 },
+      { x: new Date(2022, 1, 16), y: 329 },
+      { x: new Date(2022, 1, 17), y: 318 },
+      { x: new Date(2022, 1, 18), y: 379 },
+      { x: new Date(2022, 1, 19), y: 508 },
+      { x: new Date(2022, 1, 20), y: 329 },
+      { x: new Date(2022, 1, 21), y: 467 },
+      { x: new Date(2022, 1, 22), y: 331 },
+      { x: new Date(2022, 1, 23), y: 394 },
+      { x: new Date(2022, 1, 24), y: 382 },
+      { x: new Date(2022, 1, 25), y: 397 },
+      { x: new Date(2022, 1, 26), y: 367 },
+      { x: new Date(2022, 1, 27), y: 273 },
+      { x: new Date(2022, 1, 28), y: 373 }
+    ]
+  }]
+});
+chart.render();
+
+function toogleDataSeries(e){
+  if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+    e.dataSeries.visible = false;
+  } else{
+    e.dataSeries.visible = true;
+  }
+  chart.render();
+}
+
+}
+</script>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+        </div>
+      
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
